@@ -1,0 +1,45 @@
+[14:11:21.495] Global cache location '/home/raziel/.cache/typescript/4.6', safe file path '/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[14:11:21.497] Processing cache location '/home/raziel/.cache/typescript/4.6'
+[14:11:21.497] Trying to find '/home/raziel/.cache/typescript/4.6/package.json'...
+[14:11:21.498] Loaded content of '/home/raziel/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.587"},"devDependencies":{"@types/body-parser":"^1.19.2","@types/cors":"^2.8.12","@types/express":"^4.17.13","@types/merge-descriptors":"^1.0.1","@types/node":"^17.0.23","@types/nodemon":"^1.19.1","@types/object-assign":"^4.0.30","@types/react":"^17.0.43","@types/serve-static":"^1.13.10","@types/vary":"^1.1.0"}}
+[14:11:21.498] Loaded content of '/home/raziel/.cache/typescript/4.6/package-lock.json'
+[14:11:21.516] Adding entry into typings cache: 'body-parser' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/body-parser/index.d.ts'
+[14:11:21.518] Adding entry into typings cache: 'cors' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/cors/index.d.ts'
+[14:11:21.520] Adding entry into typings cache: 'express' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/express/index.d.ts'
+[14:11:21.522] Adding entry into typings cache: 'merge-descriptors' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/merge-descriptors/index.d.ts'
+[14:11:21.527] Adding entry into typings cache: 'node' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/node/index.d.ts'
+[14:11:21.529] Adding entry into typings cache: 'nodemon' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/nodemon/index.d.ts'
+[14:11:21.530] Adding entry into typings cache: 'object-assign' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/object-assign/index.d.ts'
+[14:11:21.533] Adding entry into typings cache: 'react' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/react/index.d.ts'
+[14:11:21.535] Adding entry into typings cache: 'serve-static' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/serve-static/index.d.ts'
+[14:11:21.536] Adding entry into typings cache: 'vary' => '/home/raziel/.cache/typescript/4.6/node_modules/@types/vary/index.d.ts'
+[14:11:21.537] Finished processing cache location '/home/raziel/.cache/typescript/4.6'
+[14:11:21.537] Process id: 12947
+[14:11:21.537] NPM location: /home/raziel/.nvm/versions/node/v17.6.0/bin/npm (explicit '--npmLocation' not  provided)
+[14:11:21.537] validateDefaultNpmLocation: false
+[14:11:21.537] Npm config file: /home/raziel/.cache/typescript/4.6/package.json
+[14:11:21.537] Updating types-registry npm package...
+[14:11:21.537] Exec: /home/raziel/.nvm/versions/node/v17.6.0/bin/npm install --ignore-scripts types-registry@latest
+[14:11:22.484]     Succeeded. stdout:
+    
+    up to date, audited 20 packages in 770ms
+
+found 0 vulnerabilities
+
+[14:11:22.484] Updated types-registry npm package
+[14:11:24.748] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/raziel/EjerciciosIntek/chat/DB/usersserver/models/users.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/raziel/EjerciciosIntek/chat/DB/usersserver/models","kind":"discover"}
+[14:11:24.765] Loaded safelist from types map file '/home/raziel/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[14:11:24.765] Explicitly included types: []
+[14:11:24.766] Inferred typings from unresolved imports: []
+[14:11:24.766] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/raziel/EjerciciosIntek/chat/DB/usersserver/models/bower_components","/home/raziel/EjerciciosIntek/chat/DB/usersserver/models/node_modules"]}
+[14:11:24.766] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/raziel/EjerciciosIntek/chat/DB/usersserver/models/bower_components","/home/raziel/EjerciciosIntek/chat/DB/usersserver/models/node_modules"]}
+[14:11:24.766] DirectoryWatcher:: Added:: WatchInfo: /home/raziel/EjerciciosIntek/chat/DB/usersserver/models/bower_components
+[14:11:24.767] DirectoryWatcher:: Added:: WatchInfo: /home/raziel/EjerciciosIntek/chat/DB/usersserver/models/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:11:24.769] Elapsed:: 1.9779490008950233ms DirectoryWatcher:: Added:: WatchInfo: /home/raziel/EjerciciosIntek/chat/DB/usersserver/models/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:11:24.769] DirectoryWatcher:: Added:: WatchInfo: /home/raziel/EjerciciosIntek/chat/DB/usersserver/models/node_modules
+[14:11:24.769] DirectoryWatcher:: Added:: WatchInfo: /home/raziel/EjerciciosIntek/chat/DB/usersserver/models/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:11:24.770] Elapsed:: 0.13664299994707108ms DirectoryWatcher:: Added:: WatchInfo: /home/raziel/EjerciciosIntek/chat/DB/usersserver/models/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:11:24.770] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[14:11:24.770] Response has been sent.
+[14:11:24.770] No new typings were requested as a result of typings discovery
